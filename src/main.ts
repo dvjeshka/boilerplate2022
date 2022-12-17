@@ -2,6 +2,8 @@ import { createApp } from 'vue';
 import App from '@/App.vue';
 import router from '@/router';
 
+import './assets/style.css';
+
 // @ts-ignore
 globalThis.import_meta_env = JSON.parse('"import_meta_env_placeholder"');
 

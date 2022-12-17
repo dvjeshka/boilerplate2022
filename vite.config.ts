@@ -34,9 +34,10 @@ export default defineConfig(() => ({
       example: '.env.runtime',
     }),
     //ViteTips(),
-    Inspector(),
+
     checker({ vueTsc: true }),
     vue(),
+    Inspector(),
   ],
   build: {
     //outDir: '../dist',
