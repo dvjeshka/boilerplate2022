@@ -42,6 +42,23 @@ export default defineConfig(() => ({
   build: {
     //outDir: '../dist',
     //emptyOutDir: true,
+    /* lib: {
+      entry: fileURLToPath(new URL('./src/lib.ts', import.meta.url)),
+      formats:["es","cjs","umd","iife"],
+      name: 'MyLib',
+      // the proper extensions will be added
+      fileName: (format)=>`my-lib.${format}.js`,
+    },
+    rollupOptions: {
+      external: [
+        'vue',
+        'axios','vue-router','@vueuse/integrations'],
+      output: {
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    },*/
   },
   define: {
     'import.meta.vitest': false,
