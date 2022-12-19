@@ -35,7 +35,7 @@ export default defineConfig(() => ({
     }),
     //ViteTips(),
 
-    checker({ vueTsc: true }),
+    //checker({ vueTsc: true }),
     vue(),
     Inspector(),
   ],

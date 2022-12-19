@@ -5,6 +5,7 @@ module.exports = {
     'airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
+    'plugin:storybook/recommended',
     'prettier',
   ],
   rules: {
